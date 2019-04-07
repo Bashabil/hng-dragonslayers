@@ -1,1 +1,45 @@
+*{box-sizing:border-box}
+body{font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;margin:0;padding:0}
+.clear-fix{clear:both}
+.btn{background:#086963;border:#086963;border-radius:3px;cursor:pointer;font-size:18px;padding:10px 25px}
+.btn-button{color:#fff}
+.user-section{background:#fcfcfc;float:left;height:100%;padding-top:30px;position:absolute;text-align:center;width:25%}
+.navigation{padding:0;list-style-type:none}
+.navigation li a {
+    color:#333;
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:900;font-size:18px;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+}
+
+ul li a.active-link {
+    color:#086963
+}
+.news-feed {
+    float:right;
+    margin:50px auto 0;
+    padding-right:30px;
+    width:70%
+}
+.article-form{background:#fcfcfc;border-radius:4px;margin-bottom:70px;padding:15px}
+.article-form input[type=text],.article-form textarea{border:1px solid #333;border-radius:3px;display:block;margin-bottom:15px;padding:10px;width:100%}
+.article-form input[type=text]{color:#a7a7a7;font-family:Raleway;font-style:normal;font-weight:900;font-size:18px}
+.post{border-top:.5px solid #dadada;position:relative;margin-top:40px;padding:20px 0}
+.author-image{position:absolute;top:40px}
+.author-image img{height:auto;width:50%}
+.article-title{padding:0 75px}.title{margin-bottom:0}
+.author-name,.post-time{float:left;margin-right:10px}
+.post-time{color:#a7a7a7}.author-name,.post-time{font-size:11px;line-height:normal}
+
+.dot {
+    background: #717171;
+    border: 1px solid #333;
+    height: 20px;
+    width: 20px;
+}
+.author-name{font-weight:700;color:#717171}
+.article-text{padding:0 75px;text-align:justify}
 *{box-sizing:border-box}body{font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;margin:0;padding:0}.clear-fix{clear:both}.btn{background:#086963;border:#086963;border-radius:3px;cursor:pointer;font-size:18px;padding:10px 25px}.btn-button{color:#fff}.user-section{background:#fcfcfc;float:left;height:100%;padding-top:30px;position:absolute;text-align:center;width:25%}.navigation{padding:0;list-style-type:none}.navigation li a{color:#333;font-family:Raleway;font-style:normal;font-weight:900;font-size:18px;display:block;padding:10px;text-decoration:none}ul li a.active-link{color:#086963}.news-feed{float:right;margin:50px auto 0;padding-right:30px;width:70%}.article-form{background:#fcfcfc;border-radius:4px;margin-bottom:70px;padding:15px}.article-form input[type=text],.article-form textarea{border:1px solid #333;border-radius:3px;display:block;margin-bottom:15px;padding:10px;width:100%}.article-form input[type=text]{color:#a7a7a7;font-family:Raleway;font-style:normal;font-weight:900;font-size:18px}.post{border-top:.5px solid #dadada;position:relative;margin-top:40px;padding:20px 0}.author-image{position:absolute;top:40px}.author-image img{height:auto;width:50%}.article-title{padding:0 75px}.title{margin-bottom:0}.author-name,.post-time{float:left;margin-right:10px}.post-time{color:#a7a7a7}.author-name,.post-time{font-size:11px;line-height:normal}.author-name{font-weight:700;color:#717171}.article-text{padding:0 75px;text-align:justify}.manage-feed-header{color:#086963}.manage-feed-header a{text-decoration:none;color:#086963;font-weight:500}.manage-feed-title{color:#999;margin-bottom:20px;font-size:15px}.manage-feed-body{color:#333;margin-bottom:10px;height:21px}div.feed{width:100%;font-family:Raleway;height:50px;margin-top:20px}div.user-feed-image{width:10%;float:left}div.user-feed-image img{width:40px;height:40px}div.user-data{width:75%;float:left;height:50px;position:relative}.user-data .user-name,.user-link{height:50px;position:absolute;width:100%;top:-20px;color:#333}.user-link{top:40%;text-decoration:none;color:#a7a7a7}div.user-action{text-align:center;width:15%;float:left}.unsubscribe-button{color:#fff!important;background:#00c7bb;padding:10px;border:1px solid #086963!important;border-radius:3px;display:inline-block;text-decoration:none;width:100%}.unsubscribe-button:hover{color:#00c7bb!important;background:#fff;border-color:#086963!important;transition:all .4s ease 0s}.subscribe-button{background:#fff!important;color:#00c7bb;padding:10px;border:1px solid #086963!important;border-radius:3px;display:inline-block;text-decoration:none;width:100%}.subscribe-button:hover{background:#00c7bb!important;color:#fff;border-color:#fff!important;transition:all .4s ease 0s}hr{border:1px solid #dadada}.social-icons{display:flex;justify-content:center}.fa-github,.fa-medium{margin-right:9px}hr{width:80%}
