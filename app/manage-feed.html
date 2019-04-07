@@ -7,6 +7,7 @@
     <title>Blog App</title>
 
     <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/profile.css" />
   </head>
 
   <body>
@@ -29,14 +30,104 @@
         <ul class="navigation">
           <li><a href="#" class="active-link">Timeline</a></li>
           <li><a href="#">My Articles</a></li>
-          <li><a href="#">Profile</a></li>
+          <li><a href="manage-feed.html">Profile</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </section>
 
     <section class="manage-feed">
-   
+      <div>
+        <h1>Profile > Manage Feed</h1>
+        <p>Manage blogs you follow and discover new ones</p>
+      </div>
+      <button class="accordion">Recently Viewed</button>
+      <div class="panel">
+          <article class="post">
+              <div class="author-image">
+                  <img src="img/avatar.png" alt="" />
+              </div>
+              <div class="article-title">
+                  <div class="left">
+                      <h2 class="title">Paris Weekend: A trip i'll never forget</h2>
+                      <p class="post-time">13 minutes ago</p>
+                  </div>
+                  <div class="right">
+                      <p class="author-name">Saviour Essien</p>
+                      <a href="#" class="author-link">saviouressien.com</a>
+                  </div>
+              </div>
+              <div class="clear-fix"></div>
+          </article>
+          <article class="post">
+              <div class="author-image">
+                  <img src="img/avatar.png" alt="" />
+              </div>
+              <div class="article-title">
+                  <div class="left">
+                      <h2 class="title">Paris Weekend: A trip i'll never forget</h2>
+                      <p class="post-time">13 minutes ago</p>
+                  </div>
+                  <div class="right">
+                      <p class="author-name">Saviour Essien</p>
+                      <a href="#" class="author-link">saviouressien.com</a>
+                  </div>
+              </div>
+              <div class="clear-fix"></div>
+          </article>
+      </div>
+      <button class="accordion">Archived</button>
+      <div class="panel">
+          <article class="post">
+              <div class="author-image">
+                  <img src="img/avatar.png" alt="" />
+              </div>
+              <div class="article-title">
+                  <div class="left">
+                      <h2 class="title">Paris Weekend: A trip i'll never forget</h2>
+                      <p class="post-time">Saviour Essien</p>
+                  </div>
+                  <div class="right">
+                      <button class="button">Unsubscribe</button>
+                  </div>
+              </div>
+              <div class="clear-fix"></div>
+          </article>
+      </div>
+      <button class="accordion">Following</button>
+      <div class="panel">
+          <article class="post">
+              <div class="author-image">
+                  <img src="img/avatar.png" alt="" />
+              </div>
+              <div class="article-title">
+                  <div class="left">
+                      <h2 class="title">Paris Weekend: A trip i'll never forget</h2>
+                      <p class="post-time">Saviour Essien</p>
+                  </div>
+                  <div class="right">
+                      <button class="button">Unsubscribe</button>
+                  </div>
+              </div>
+              <div class="clear-fix"></div>
+          </article>
+          <article class="post">
+              <div class="author-image">
+                  <img src="img/avatar.png" alt="" />
+              </div>
+              <div class="article-title">
+                  <div class="left">
+                      <h2 class="title">Paris Weekend: A trip i'll never forget</h2>
+                      <p class="post-time">Saviour Essien</p>
+                  </div>
+                  <div class="right">
+                      <button class="button">Unsubscribe</button>
+                  </div>
+              </div>
+              <div class="clear-fix"></div>
+          </article>
+      </div>
     </section>
+    <script src="scripts/profile.js"></script>
   </body>
 </html>
