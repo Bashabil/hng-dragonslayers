@@ -1,148 +1,12 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Blog App</title>
-
-    <link rel="stylesheet" href="css/blog.css" />
-    <link rel="stylesheet" href="css/profile.css" />
-  </head>
-
-  <body>
-    <section class="user-section">
-      <div class="user-image">
-        <img src="img/avatar.png" alt="avatar" />
-      </div>
-      <div class="user-info">
-        <h2>Saviour Essien</h2>
-        <p>Designer - UI/UX & Brand Identity</p>
-        <p>Always happy</p>
-        <div class="social-icons">
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-medium"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-      </div>
-
-      <nav>
-        <ul class="navigation">
-          <li><a href="#" class="active-link">Timeline</a></li>
-          <li><a href="#">My Articles</a></li>
-          <li><a href="manage-feed.html">Profile</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </section>
-
-    <section class="manage-feed">
-      <div>
-        <h1>Profile > Manage Feed</h1>
-        <p>Manage blogs you follow and discover new ones</p>
-      </div>
-      <button class="accordion">Recently Viewed</button>
-      <div class="panel">
-          <article class="post">
-              <div class="author-image">
-                  <img src="img/avatar.png" alt="" />
-              </div>
-              <div class="article-title">
-                  <div class="left">
-                      <h2 class="title">Paris Weekend: A trip i'll never forget</h2>
-                      <p class="post-time">13 minutes ago</p>
-                  </div>
-                  <div class="right">
-                      <p class="author-name">Saviour Essien</p>
-                      <a href="#" class="author-link">saviouressien.com</a>
-                  </div>
-              </div>
-              <div class="clear-fix"></div>
-          </article>
-          <hr>
-          <article class="post">
-              <div class="author-image">
-                  <img src="img/avatar.png" alt="" />
-              </div>
-              <div class="article-title">
-                  <div class="left">
-                      <h2 class="title">Paris Weekend: A trip i'll never forget</h2>
-                      <p class="post-time">13 minutes ago</p>
-                  </div>
-                  <div class="right">
-                      <p class="author-name">Saviour Essien</p>
-                      <a href="#" class="author-link">saviouressien.com</a>
-                  </div>
-              </div>
-              <div class="clear-fix"></div>
-          </article>
-          <hr>
-      </div>
-      <button class="accordion">Archived</button>
-      <div class="panel">
-          <article class="post">
-              <div class="author-image">
-                  <img src="img/avatar.png" alt="" />
-              </div>
-              <div class="article-title">
-                  <div class="left">
-                      <h2 class="title">Paris Weekend: A trip i'll never forget</h2>
-                      <p class="post-time">Saviour Essien</p>
-                  </div>
-                  <div class="right">
-                      <button class="button">Unsubscribe</button>
-                  </div>
-              </div>
-              <div class="clear-fix"></div>
-          </article>
-      </div>
-      <button class="accordion">Following</button>
-      <div class="panel">
-          <article class="post">
-              <div class="author-image">
-                  <img src="img/avatar.png" alt="" />
-              </div>
-              <div class="article-title">
-                  <div class="left">
-                      <h2 class="title">Paris Weekend: A trip i'll never forget</h2>
-                      <p class="post-time">Saviour Essien</p>
-                  </div>
-                  <div class="right">
-                      <button class="button">Unsubscribe</button>
-                  </div>
-              </div>
-              <div class="clear-fix"></div>
-          </article>
-          <article class="post">
-              <div class="author-image">
-                  <img src="img/avatar.png" alt="" />
-              </div>
-              <div class="article-title">
-                  <div class="left">
-                      <h2 class="title">Paris Weekend: A trip i'll never forget</h2>
-                      <p class="post-time">Saviour Essien</p>
-                  </div>
-                  <div class="right">
-                      <button class="button">Unsubscribe</button>
-                  </div>
-              </div>
-              <div class="clear-fix"></div>
-          </article>
-      </div>
-    </section>
-    <script src="scripts/profile.js"></script>
-  </body>
-</html>
-=======
-<html>
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Manage Feed</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/profile.css" />
     <script src="main.js"></script>
 </head>
 
@@ -175,19 +39,38 @@
     <section class="news-feed">
         <div class="manage-feed-header"><a href="#">Profile</a> &#707; <a href="#">Manage Feed</a></div>
         <div class="manage-feed-title">Manage blogs you follow and discover new ones</div>
-        <div class="manage-feed-body">
-            <div style="width:90%;float:left">Recently viewed</div>
-            <div style="float:right;width:5%">&#8964;</div>
+        <button class="accordion">Recently Viewed</button>
+        <div class="panel">
+          <div class="feed">
+            <div class="user-feed-image"><img
+                    src="https://res.cloudinary.com/ephaig/image/upload/v1554639351/avatar.png" />
+            </div>
+            <div class="user-data">
+                <h3 class="title">The Journey: A trip i will never forget</h3>
+                <p class="user-activity">19th April, 2019</p>
+                <p class="user-activity">Tom Lama</p>
+            </div>
+          </div>
+          <hr>
+          <div class="feed">
+              <div class="user-feed-image"><img
+                      src="https://res.cloudinary.com/ephaig/image/upload/v1554639351/avatar.png" />
+              </div>
+              <div class="user-data">
+                  <h3 class="title">The Journey: A trip i will never forget</h3>
+                  <p class="user-activity">19th April, 2019</p>
+                  <p class="user-activity">Tom Lama</p>
+              </div>
+            </div>
+            <hr>
         </div>
-        <div class="manage-feed-body">
-            <div style="width:90%;float:left">Archived</div>
-            <div style="float:right;width:5%">&#8964;</div>
+        <button class="accordion">Archived</button>
+        <div class="panel">
+           
         </div>
-        <div class="manage-feed-body">
-            <div style="width:90%;float:left">Following</div>
-            <div style="float:right;width:5%">&#8963;</div>
-        </div>
-        <div class="feed">
+        <button class="accordion">Following</button>
+        <div class="panel">
+            <div class="feed">
             <div class="user-feed-image"><img
                     src="https://res.cloudinary.com/ephaig/image/upload/v1554639351/avatar.png" />
             </div>
@@ -196,66 +79,67 @@
                 <a class="user-link" href="#">tomilara.com</a>
             </div>
             <div class="user-action"><a href="#" class="unsubscribe-button">Unsubscribe</a></div>
+          </div>
+          <hr>
+          <div class="feed">
+              <div class="user-feed-image"><img
+                      src="https://res.cloudinary.com/ephaig/image/upload/v1554639351/avatar.png" />
+              </div>
+              <div class="user-data">
+                  <h3 class="user-name">Ada Okoli</h3>
+                  <a class="user-link" href="#">adaokoli.com</a>
+              </div>
+              <div class="user-action"><a href="#" class="subscribe-button">Subscribe</a></div>
+          </div>
+          <hr>
+          <div class="feed">
+              <div class="user-feed-image"><img
+                      src="https://res.cloudinary.com/ephaig/image/upload/v1554639351/avatar.png" />
+              </div>
+              <div class="user-data">
+                  <h3 class="user-name">Tomi Lara</h3>
+                  <a class="user-link" href="#">tomilara.com</a>
+              </div>
+              <div class="user-action"><a href="#" class="unsubscribe-button">Unsubscribe</a></div>
+          </div>
+          <hr>
+          <div class="feed">
+              <div class="user-feed-image"><img
+                      src="https://res.cloudinary.com/ephaig/image/upload/v1554639351/avatar.png" />
+              </div>
+              <div class="user-data">
+                  <h3 class="user-name">Ada Okoli</h3>
+                  <a class="user-link" href="#">adaokoli.com</a>
+              </div>
+              <div class="user-action"><a href="#" class="subscribe-button">Subscribe</a></div>
+          </div>
+          <hr>
+          <div class="feed">
+              <div class="user-feed-image"><img
+                      src="https://res.cloudinary.com/ephaig/image/upload/v1554639351/avatar.png" />
+              </div>
+              <div class="user-data">
+                  <h3 class="user-name">Ada Okoli</h3>
+                  <a class="user-link" href="#">adaokoli.com</a>
+              </div>
+              <div class="user-action"><a href="#" class="subscribe-button">Subscribe</a></div>
+          </div>
+          <hr>
+          <div class="feed">
+              <div class="user-feed-image"><img
+                      src="https://res.cloudinary.com/ephaig/image/upload/v1554639351/avatar.png" />
+              </div>
+              <div class="user-data">
+                  <h3 class="user-name">Ada Okoli</h3>
+                  <a class="user-link" href="#">adaokoli.com</a>
+              </div>
+              <div class="user-action"><a href="#" class="subscribe-button">Subscribe</a></div>
+          </div>
+          <hr>
         </div>
-        <hr>
-        <div class="feed">
-            <div class="user-feed-image"><img
-                    src="https://res.cloudinary.com/ephaig/image/upload/v1554639351/avatar.png" />
-            </div>
-            <div class="user-data">
-                <h3 class="user-name">Ada Okoli</h3>
-                <a class="user-link" href="#">adaokoli.com</a>
-            </div>
-            <div class="user-action"><a href="#" class="subscribe-button">Subscribe</a></div>
-        </div>
-        <hr>
-        <div class="feed">
-            <div class="user-feed-image"><img
-                    src="https://res.cloudinary.com/ephaig/image/upload/v1554639351/avatar.png" />
-            </div>
-            <div class="user-data">
-                <h3 class="user-name">Tomi Lara</h3>
-                <a class="user-link" href="#">tomilara.com</a>
-            </div>
-            <div class="user-action"><a href="#" class="unsubscribe-button">Unsubscribe</a></div>
-        </div>
-        <hr>
-        <div class="feed">
-            <div class="user-feed-image"><img
-                    src="https://res.cloudinary.com/ephaig/image/upload/v1554639351/avatar.png" />
-            </div>
-            <div class="user-data">
-                <h3 class="user-name">Ada Okoli</h3>
-                <a class="user-link" href="#">adaokoli.com</a>
-            </div>
-            <div class="user-action"><a href="#" class="subscribe-button">Subscribe</a></div>
-        </div>
-        <hr>
-        <div class="feed">
-            <div class="user-feed-image"><img
-                    src="https://res.cloudinary.com/ephaig/image/upload/v1554639351/avatar.png" />
-            </div>
-            <div class="user-data">
-                <h3 class="user-name">Ada Okoli</h3>
-                <a class="user-link" href="#">adaokoli.com</a>
-            </div>
-            <div class="user-action"><a href="#" class="subscribe-button">Subscribe</a></div>
-        </div>
-        <hr>
-        <div class="feed">
-            <div class="user-feed-image"><img
-                    src="https://res.cloudinary.com/ephaig/image/upload/v1554639351/avatar.png" />
-            </div>
-            <div class="user-data">
-                <h3 class="user-name">Ada Okoli</h3>
-                <a class="user-link" href="#">adaokoli.com</a>
-            </div>
-            <div class="user-action"><a href="#" class="subscribe-button">Subscribe</a></div>
-        </div>
-        <hr>
     </section>
+    <script src="./scripts/profile.js"></script>
 </body>
 
 </html>
 
->>>>>>> b4833fd771aea01dbe993267871c1e1d59050220
