@@ -28,6 +28,13 @@ Make changes to code in `app` directory
 
 > `st:` prefix for code style changes like formatting, missing semi colons, etc; no code change
 
+## Assests
+Use this cloudinary link for the images
+https://res.cloudinary.com/theboringdude/image/upload/v1554644069/avatar.png
+
+## Notice
+Make sure all images are called from cloudinary. Do not upload images directly.
+
 ## Deployment
 
 Deployed to GitHub Pages: [Click to View](https://sarscode.github.io/hng-dragonslayers/)
