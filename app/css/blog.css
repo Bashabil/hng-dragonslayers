@@ -34,7 +34,7 @@ body {
     float: left;
     height: 100%;
     padding-top: 30px;
-    position: absolute;
+    position: fixed;
     text-align: center;
     width: 25%;
 }
@@ -44,7 +44,7 @@ body {
     list-style-type: none;
 }
 
-.navigation li a{
+.navigation li a {
     color: #333333;
     font-family: Raleway;
     font-style: normal;
@@ -66,6 +66,7 @@ ul li a.active-link {
     width: 70%;
 }
 
+<<<<<<< HEAD
 .manage-feed {
     float: right;
     margin: 10px auto 0 auto;
@@ -74,13 +75,17 @@ ul li a.active-link {
 }
 
 .article-form  {
+=======
+.article-form {
+>>>>>>> b4833fd771aea01dbe993267871c1e1d59050220
     background: #FCFCFC;
     border-radius: 4px;
     margin-bottom: 70px;
     padding: 15px;
 }
 
-.article-form input[type="text"], .article-form textarea  {
+.article-form input[type="text"],
+.article-form textarea {
     border: 1px solid #333333;
     border-radius: 3px;
     display: block;
@@ -111,7 +116,7 @@ ul li a.active-link {
 
 .author-image img {
     height: auto;
-    width: 50%
+    width: 50%;
 }
 
 .article-title {
@@ -125,7 +130,13 @@ ul li a.active-link {
     margin-bottom: 0;
 }
 
+<<<<<<< HEAD
 .post-time{
+=======
+.post-time,
+.author-name {
+    float: left;
+>>>>>>> b4833fd771aea01dbe993267871c1e1d59050220
     margin-right: 10px;
 }
 
@@ -155,8 +166,134 @@ ul li a.active-link {
     text-align: justify;
 }
 
+<<<<<<< HEAD
 .right {
     position: relative;
     margin-top: 20px;
     line-height: 0.1;
 }
+=======
+.manage-feed-header {
+    color: #086963;
+}
+
+.manage-feed-header a {
+    text-decoration: none;
+    color: #086963;
+    font-weight: 500;
+}
+
+.manage-feed-title {
+    color: #999999;
+    margin-bottom: 20px;
+    font-size: 15px
+}
+
+.manage-feed-body {
+    color: #333333;
+    margin-bottom: 10px;
+    height: 21px;
+}
+
+div.feed {
+    width: 100%;
+    font-family: Raleway;
+    height: 50px;
+    margin-top: 20px
+}
+
+div.user-feed-image {
+    width: 10%;
+    float: left;
+}
+
+div.user-feed-image img {
+    width: 40px;
+    height: 40px;
+}
+
+div.user-data {
+    width: 75%;
+    float: left;
+    height: 50px;
+    position: relative;
+}
+
+.user-data .user-name,
+.user-link {
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    top: -20px;
+    color: #333333;
+}
+
+.user-link {
+    top: 40%;
+    text-decoration: none;
+    color: #A7A7A7
+}
+
+
+div.user-action {
+    text-align: center;
+    width: 15%;
+    float: left;
+}
+
+.unsubscribe-button {
+    color: #FFFFFF !important;
+    background: #00C7BB;
+    padding: 10px;
+    border: 1px solid #086963 !important;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+}
+
+.unsubscribe-button:hover {
+    color: #00C7BB !important;
+    background: #ffffff;
+    border-color: #086963 !important;
+    transition: all 0.4s ease 0s;
+}
+
+.subscribe-button {
+    background: #FFFFFF !important;
+    color: #00C7BB;
+    padding: 10px;
+    border: 1px solid #086963 !important;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%
+}
+
+.subscribe-button:hover {
+    background: #00C7BB !important;
+    color: #ffffff;
+    border-color: #ffffff !important;
+    transition: all 0.4s ease 0s;
+}
+
+hr {
+    border: 1px solid #DADADA;
+}
+.social-icons {
+    display: flex;
+    justify-content:center;
+}
+
+.fa-github{
+    margin-right: 9px;
+}
+
+.fa-medium{
+    margin-right: 9px;
+}
+
+hr{
+    width: 80%;
+}
+>>>>>>> b4833fd771aea01dbe993267871c1e1d59050220

@@ -49,3 +49,12 @@
   .toggled {
     background-color: green;
   }
+
+  hr {
+    height: 1px;
+    color: #a5a4a4;
+    background:  #a5a4a4;
+    font-size: 0;
+    border: 0;
+    margin-bottom: 10px;
+}
